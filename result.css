@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --bg-pri-clr:#000A12;
+    --light-black:#242B2E;
+   --txt-color:#ffff;
+    --lin-gra-card:linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+    --btn-color:#6933d6;
+    --btn-hover:#7a46e0;
+    --font-size-sm:14px;
+    --font-size-reg:18px;
+    --font-size-lar:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+header{
+    height: 9vh;
+    width: auto;
+    background: rgb(236, 234, 234);
+    box-shadow: 1px 1px 10px 3px rgba(51, 51, 51, 0.719);
+}   
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+ nav .text{
+    margin: 1rem 1rem;
+    display: flex;
+    font-size: 17px;
+}
+.text .From{
+    margin-right: 1rem;
+}
+.text .To{
+    margin-left: 1rem;
+}
+
+.searchmore{
+    margin: .5rem;
+}
+.searchmore .btn{
+    padding: 8px 10px;
+    font-size: var(--font-size-reg);
+    
+    border: 1px solid var(--btn-color);
+    border-radius: 50px;
+    outline: none;
+    background: var(--btn-color);
+    color: var(--txt-color);
+    cursor: pointer;
+}
+.searchmore .btn:hover, :focus{
+    padding: 8px 12px;
+    border: 1px solid var(--btn-hover);
+    background:var(--btn-hover);
+}
+
+/* card wrapper */
+.card-wrapper{
+    margin: 2rem 1rem;
+}
+
+.cards .card{
+    list-style: none;
+    padding:1rem 2rem 0 2rem;
+    background: #2222;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px -3px #3d3f41;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.cards .card:hover{
+    background: #2223;
+}
+.card .businfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.businfo .text .title{
+    max-width: 150px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.businfo .text .sub-title{
+    font-size: var(--font-size-sm);
+}
+
+.businfo .route{
+    margin-right: 1rem;
+    display: flex;
+    justify-content:space-around;
+    font-size: var(--font-size-sm);
+}
+.businfo .route .arrow{
+    margin:0px 10px;
+}
+
+.businfo .price{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.card .otherinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: var(--font-size-sm);
+}
+
+.otherinfo .time{
+    position: relative;
+    font-size: var(--font-size-sm);
+    top: -15px;
+}
+.time .start{
+    font-weight: bold;
+}
+@media (max-width:540px) {
+    .cards .card{
+        padding: 0.5rem 1rem 0 1rem;
+    }
+
+    .businfo .title , .price{
+        font-size: var(--font-size-sm);
+    }
+
+    
+}
+@media (min-width:900px){
+    nav{
+        justify-content: space-between;
+        margin: 0px 4rem;
+      }
+      nav .text{
+          font-size: 20px;
+      }
+    .card-wrapper{
+        margin: 2rem 2rem;
+    }
+    .businfo .text .title{
+        font-size: 18px;
+    }
+    .businfo .text .sub-title{
+        font-size: 15px;
+    }
+    .businfo .route{
+        font-size: 16px;
+    }
+    .businfo .price{
+        font-size: 18px;
+    }
+    .card .otherinfo {
+        font-size: 16px;
+    }
+    .otherinfo .time{
+        font-size: 16pxs;
+    }
+
+
+}
