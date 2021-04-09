@@ -71,10 +71,13 @@ window.addEventListener('load', () => {
                             </div>
                         </div>
 
-                        <div class="call">
-                            <i class="fas fa-headset"></i>
-                            <a href="tel:+917008061293">Book now!</a>
-                        </div>
+                       
+                    <div class="call">
+                    <a href="tel:+917008061293">
+                        <i class="fas fa-headset"></i>
+                         Book now!
+                    </a>
+                </div>
     
                     </li>                
  

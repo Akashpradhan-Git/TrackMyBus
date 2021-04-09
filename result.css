@@ -196,12 +196,13 @@ nav{
     text-align: center ;
 }
 .card .call a{
-    color: rgb(255, 0, 0);
+    color: #9b161a;
     text-decoration: none;  
     border-radius: 20px;
     font-weight: 600;
     transition: all 0.5s ease;
     padding: 0px 30%;
+    
    
 }
 .card .call:hover{
