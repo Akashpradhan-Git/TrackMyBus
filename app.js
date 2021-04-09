@@ -63,7 +63,11 @@ window.addEventListener('load', () => {
     
                         <!-- FIXME: other info -->
                         <div class="otherinfo">
-                            <div class="seat"> ${e.seat}</div>
+                        
+                        <div class="seat">
+                        <img src="/img/seat.svg"/>   
+                        <strong>${e.seat}</strong>
+                    </div>
                             <div class="time-taken"><i class="fas fa-hourglass-half"></i> ${e.totTime}</div>
                             <div class="time">
                                 <div class="start"> <i class="far fa-clock"></i> ${e.start}</div>
@@ -77,7 +81,7 @@ window.addEventListener('load', () => {
                         <i class="fas fa-headset"></i>
                          Book now!
                     </a>
-                </div>
+                    </div>
     
                     </li>                
  
