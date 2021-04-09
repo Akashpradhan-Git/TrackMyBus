@@ -70,7 +70,8 @@ window.addEventListener('load', () => {
                   
             })
          
-            
+            //console log
+            console.log('Your Bus time table')
             
             document.getElementById('output').innerHTML = out;
         }
