@@ -168,6 +168,11 @@ nav{
 }
 .otherinfo .seat{
     flex: 40%;
+    display: flex;
+}
+.otherinfo .seat img{
+    width: 30px;
+    color: red;
 }
 .otherinfo .time-taken{
     text-align: center;

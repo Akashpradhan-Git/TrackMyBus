@@ -139,6 +139,7 @@
 		"name" : "DAS And DAS Bus",
 		"info" : "A/C Seater / Sleeper (2+2)",
 		"price": 361,
+		"seat":30,
 		"totTime": "4h 56m",
 		"start": "05:30 AM",
 		"end": "10:26 PM",
